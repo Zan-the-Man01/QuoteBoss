@@ -45,10 +45,9 @@
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.263" />
+        app:layout_constraintVertical_bias="0.285" />
 
     <Button
         android:id="@+id/catButton2"
@@ -61,10 +60,9 @@
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.476" />
+        app:layout_constraintVertical_bias="0.554" />
 
     <Button
         android:id="@+id/catButton3"
@@ -77,24 +75,8 @@
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697" />
+        app:layout_constraintVertical_bias="0.832" />
 
-    <Button
-        android:id="@+id/catButton4"
-        android:layout_width="231dp"
-        android:layout_height="82dp"
-        android:background="#FCF8DA"
-        android:text="QUOTE OF THE DAY"
-        android:textColor="#A6000000"
-        android:textSize="24sp"
-        android:typeface="sans"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
 </androidx.constraintlayout.widget.ConstraintLayout>

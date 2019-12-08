@@ -69,11 +69,7 @@ public final class QuoteActivity extends AppCompatActivity {
         } else if (category == 3) {
             // technology
             getQuotes("Technology", STANDARD);
-        } /*else if (category == 4) {
-            // quote of the day
-            newQuote += " You picked category 4.";
-            quote.setText(newQuote);*/
-        else {
+        } else {
             // something went wrong
             quote.setText("There was a problem.");
         }

@@ -19,12 +19,10 @@ public final class SelectionActivity extends AppCompatActivity {
         Button cat1 = findViewById(R.id.catButton1);
         Button cat2 = findViewById(R.id.catButton2);
         Button cat3 = findViewById(R.id.catButton3);
-        Button cat4 = findViewById(R.id.catButton4);
 
         cat1.setOnClickListener(unused -> handleClick(1));
         cat2.setOnClickListener(unused -> handleClick(2));
         cat3.setOnClickListener(unused -> handleClick(3));
-        cat4.setOnClickListener(unused -> handleClick(4));
     }
 
     private void handleClick(int cat) {
