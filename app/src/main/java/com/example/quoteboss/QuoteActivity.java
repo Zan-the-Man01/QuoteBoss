@@ -83,7 +83,8 @@ public final class QuoteActivity extends AppCompatActivity {
             public void run() {
                 Random random = new Random();
                 int current = Math.abs(random.nextInt()) % quoteList.size();
-                while (quoteList.get(current).indexOf('<') != -1) {
+                while (quoteList.get(current).indexOf('<') != -1 || quoteList.get(current).length() < 10
+                    || (quoteList.get(current).charAt(0) < 65 || quoteList.get(current).charAt(0) > 90)) {
                     current = Math.abs(random.nextInt()) % quoteList.size();
                 }
                 quoteList.set(current, quoteList.get(current).replaceAll("<br />", " "));
